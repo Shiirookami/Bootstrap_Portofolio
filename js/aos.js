@@ -7,10 +7,10 @@
         let scroll = window.scrollY;
 
         if (scroll > 50) {
-            navbar.classList.remove('navbar-light');
-            navbar.classList.add('bg-dark');
+            navbar.classList.add('bg-light');
+            navbar.classList.remove('navbar-dark');
         } else {
-            navbar.classList.add('navbar-dark');
             navbar.classList.remove('bg-light');
+            navbar.classList.add('navbar-dark');
         }
-    })
+    });
